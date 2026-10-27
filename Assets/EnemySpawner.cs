@@ -8,7 +8,7 @@ public class EnemySpawner : MonoBehaviour
 
     public float minPosition;
     public float maxPosition;
-
+    
     private float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,6 +32,6 @@ public class EnemySpawner : MonoBehaviour
     {
         Vector3 position = transform.position;
         position.y = Random.Range(minPosition, maxPosition);
-        Object.Instantiate(enemyObject, randomPosition, transform.position);
+        Object.Instantiate(enemyObject, position, transform.rotation);
     }
 }

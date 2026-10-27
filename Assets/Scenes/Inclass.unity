@@ -971,7 +971,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   spawnCooldown: 2
-  enemyObject: {fileID: 0}
+  enemyObject: {fileID: 1528898922597967044, guid: 49092f9a6dce94e23b1fe8dd3240f90f, type: 3}
+  minPosition: 0
+  maxPosition: 0
 --- !u!1001 &7091266083071844125
 PrefabInstance:
   m_ObjectHideFlags: 0
