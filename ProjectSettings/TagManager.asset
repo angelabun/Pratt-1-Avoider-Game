@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - enemy
-  - treat
+  - Enemy
   layers:
   - Default
   - TransparentFX
