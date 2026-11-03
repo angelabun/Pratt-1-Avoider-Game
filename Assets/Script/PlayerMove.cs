@@ -3,7 +3,7 @@ using TMPro;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float playerSpeed = 6f;
+    public float playerSpeed = 15f;
     public TMP_Text timerText;
     public TMP_Text scoreText;
 
